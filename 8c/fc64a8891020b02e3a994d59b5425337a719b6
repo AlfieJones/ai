@@ -1,0 +1,28 @@
+.changeset/fix-fx-checkpoint-replay.md
+  s_faea48823e0f97::t_7e1fafcb6b0bfd 1-5
+packages/harness-fx/src/fx-session-native.test.ts
+  s_faea48823e0f97::t_775a14c855465f 686
+  s_faea48823e0f97::t_2f2243edbb19a5 79
+  s_faea48823e0f97::t_1c966c7d6d07d6 19,666-676,678-680,683-685,687-750
+  s_faea48823e0f97::t_743c3966c9dfa7 677,681-682
+  s_faea48823e0f97::t_ff96b8810a294d 7-10,21-29,31
+  s_faea48823e0f97::t_8a18fbbd7267e7 80-82
+packages/harness-fx/src/fx-session.ts
+  s_faea48823e0f97::t_9d14c1adefd8b0 222-224,226-248,817-824
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8cfc64a8891020b02e3a994d59b5425337a719b6",
+  "prompts": {},
+  "sessions": {
+    "s_faea48823e0f97": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a14ec2-4a50-74e1-9782-8cbfbcca1938",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Alfie Jones <alfie.jones@hotmail.co.uk>"
+    }
+  }
+}
