@@ -1,0 +1,853 @@
+packages/harness-fx/src/fx-session.ts
+  s_faea48823e0f97::t_13b5291ba1b813 2,15-18,27,32,37,40,56-66,87-89,101-109,191,195,217-222,228-233,261-279,397,573,604,647-651,662-663,678-698,716-730,736,740-750,782-801,804,807-812,818-819,835-837,898,919-921
+.changeset/fix-langchain-readme-import.md
+  s_faea48823e0f97::t_b3f1a2f4e9a47a 2,5
+.changeset/swift-tools-smile.md
+  s_faea48823e0f97::t_4f85acbfc55046 2,5
+.changeset/vue-svelte-headers.md
+  s_faea48823e0f97::t_6e6e43f65c849f 1-5
+.github/konsistent.json
+  s_faea48823e0f97::t_40d6a8f5a18450 68
+.github/pull_request_template.md
+  s_faea48823e0f97::t_78fc57391df97d 8-15
+.github/workflows/ci.yml
+  s_faea48823e0f97::t_e815564f6aa475 206,208
+CONTRIBUTING.md
+  s_faea48823e0f97::t_88631eb7b4b066 7,11-12,25-28,54,110
+contributing/add-new-tool-to-registry.md
+  s_faea48823e0f97::t_87dcf17c66a40e 17,93
+examples/ai-functions/package.json
+  s_faea48823e0f97::t_706a2b89be3c01 71
+examples/ai-functions/src/agent/openai/bash-tool.ts
+  s_faea48823e0f97::t_e0f541a00f9964 1-36
+examples/ai-functions/src/decide/anthropic/basic.ts
+  s_faea48823e0f97::t_58b2733ecf7c53 8-9
+examples/ai-functions/src/generate-text/azure/model-id.ts
+  s_faea48823e0f97::t_2c2b6bc1504f8d 1-19
+examples/ai-functions/src/generate-text/minimax/basic.ts
+  s_faea48823e0f97::t_3b72a7f59b1637 7
+examples/ai-functions/src/generate-text/minimax/cache-control.ts
+  s_faea48823e0f97::t_92d64ee32a6537 1-54
+examples/ai-functions/src/generate-text/minimax/image-detail.ts
+  s_faea48823e0f97::t_4a08cd2b7dede3 1-35
+examples/ai-functions/src/generate-text/minimax/reasoning-effort.ts
+  s_faea48823e0f97::t_844fe001c2e93b 1-24
+examples/ai-functions/src/generate-text/minimax/reasoning.ts
+  s_faea48823e0f97::t_82c90cd1d1ebac 1-21
+examples/ai-functions/src/generate-text/minimax/sampling.ts
+  s_faea48823e0f97::t_cffb664a56dbe9 1-26
+examples/ai-functions/src/generate-text/minimax/video.ts
+  s_faea48823e0f97::t_f71898f89035fb 1-36
+examples/ai-functions/src/harness-agent/claude-code/image-input.ts
+  s_faea48823e0f97::t_2beec841e98d7d 1-46
+examples/ai-functions/src/harness-agent/cline/image-input.ts
+  s_faea48823e0f97::t_ec4f861af01f69 1-46
+examples/ai-functions/src/harness-agent/codex/image-input.ts
+  s_faea48823e0f97::t_b6c00f8ab1b846 1-46
+examples/ai-functions/src/harness-agent/cursor/image-input.ts
+  s_faea48823e0f97::t_723dc13ab32c36 1-46
+examples/ai-functions/src/harness-agent/deepagents/image-input.ts
+  s_faea48823e0f97::t_35294ff03cc3e8 1-46
+examples/ai-functions/src/harness-agent/fx/image-input.ts
+  s_faea48823e0f97::t_9ab233fe56a60f 1-48
+examples/ai-functions/src/harness-agent/github-copilot/image-input.ts
+  s_faea48823e0f97::t_2da687e00aca73 1-46
+examples/ai-functions/src/harness-agent/grok-build/image-input.ts
+  s_faea48823e0f97::t_25a6ff7f7a1bfa 1-46
+examples/ai-functions/src/harness-agent/opencode/image-input.ts
+  s_faea48823e0f97::t_44830255c09433 1-46
+examples/ai-functions/src/harness-agent/pi/image-input.ts
+  s_faea48823e0f97::t_bbbdec214086c1 1-46
+examples/ai-functions/src/reproduction/google-continuation-grounding.ts
+  s_faea48823e0f97::t_c893c3ec8eac17 1-37
+examples/ai-functions/src/stream-text/azure/model-id.ts
+  s_faea48823e0f97::t_d9619f3ac87d19 1-19
+examples/ai-functions/src/stream-text/minimax/basic.ts
+  s_faea48823e0f97::t_d478ca06fed695 8
+examples/ai-functions/src/stream-text/openai/low-memory.ts
+  s_faea48823e0f97::t_f390d88476b343 2,7
+examples/ai-functions/tsconfig.json
+  s_faea48823e0f97::t_4956201dc7bc06 213-215
+package.json
+  s_faea48823e0f97::t_c1c5e6eb182566 19
+packages/ai/CHANGELOG.md
+  s_faea48823e0f97::t_5f0121357dcbe6 3-35
+packages/ai/package.json
+  s_faea48823e0f97::t_6f85d3f3a9b1c9 3,79
+packages/ai/src/decide/decide-events.ts
+  s_faea48823e0f97::t_e75c23d39b6a42 37-42
+packages/ai/src/decide/decide.test.ts
+  s_faea48823e0f97::t_4a098595df5143 1112-1161
+packages/ai/src/decide/decide.ts
+  s_faea48823e0f97::t_ea2d5c7e97c3a0 5,20,43-44,59-62,83,117-118,153-154
+packages/ai/src/generate-text/index.ts
+  s_faea48823e0f97::t_c880ebebc225fe 68
+packages/ai/src/generate-text/optional-tool-set.test-d.ts
+  s_faea48823e0f97::t_7253204f1d4834 1-101
+packages/ai/src/generate-text/output.ts
+  s_faea48823e0f97::t_4b8bc98e60feab 494
+packages/ai/src/generate-text/prune-messages.test.ts
+  s_faea48823e0f97::t_e4d442113e5a1e 558-737,788-907
+packages/ai/src/generate-text/prune-messages.ts
+  s_faea48823e0f97::t_3c0918c7030f39 166-223,226-241,244-260
+packages/ai/src/generate-text/stream-text-with-minimal-retention.test.ts
+  s_faea48823e0f97::t_6728311443ec5d 12,50,312,341,375,414,427,449,461,474,495
+packages/ai/src/generate-text/stream-text.test-d.ts
+  s_faea48823e0f97::t_88d28127f80578 13,38-104
+packages/ai/src/generate-text/stream-text.ts
+  s_faea48823e0f97::t_11d90909b8c6fd 306,381-390,396,3561
+packages/ai/src/generate-text/tool-call.ts
+  s_faea48823e0f97::t_d193240a87cb7b 21
+packages/ai/src/generate-text/tool-error.ts
+  s_faea48823e0f97::t_387af010f0be56 7
+packages/ai/src/generate-text/tool-execution-events.ts
+  s_faea48823e0f97::t_7b09a160bab0e5 39,96
+packages/ai/src/generate-text/tool-output-denied.ts
+  s_faea48823e0f97::t_700f3fea91d18e 8
+packages/ai/src/generate-text/tool-result.ts
+  s_faea48823e0f97::t_8e6843766ea164 11
+packages/ai/src/ui/process-ui-message-stream.test.ts
+  s_faea48823e0f97::t_25f868a3475a60 3545-3596
+packages/ai/src/ui/process-ui-message-stream.ts
+  s_faea48823e0f97::t_12f0e57bfcf182 274
+packages/ai/tsdown.config.ts
+  s_faea48823e0f97::t_6986614c284526 3
+packages/alibaba/CHANGELOG.md
+  s_faea48823e0f97::t_31d06d7b3b5220 3-25
+packages/alibaba/package.json
+  s_faea48823e0f97::t_0efd8678129e1b 3,46
+packages/alibaba/src/__snapshots__/alibaba-chat-language-model.test.ts.snap
+  s_faea48823e0f97::t_c784c1598521af 63-94
+packages/alibaba/src/alibaba-chat-language-model.ts
+  s_faea48823e0f97::t_ab8f2527b8ec58 250-255
+packages/alibaba/tsdown.config.ts
+  s_faea48823e0f97::t_7f18e2244b15dd 3
+packages/amazon-bedrock/CHANGELOG.md
+  s_faea48823e0f97::t_16352da49498a5 3-27
+packages/amazon-bedrock/package.json
+  s_faea48823e0f97::t_23f399ce837cc1 3,69
+packages/amazon-bedrock/tsdown.config.ts
+  s_faea48823e0f97::t_69c644660d0982 3
+packages/angular/CHANGELOG.md
+  s_faea48823e0f97::t_b51fca6c14bb88 3-28
+packages/angular/package.json
+  s_faea48823e0f97::t_40c8b32621d8c0 3,44
+packages/angular/tsdown.config.ts
+  s_faea48823e0f97::t_0aad0694994e3c 3
+packages/anthropic-aws/CHANGELOG.md
+  s_faea48823e0f97::t_ece24a9f587ef5 3-22
+packages/anthropic-aws/package.json
+  s_faea48823e0f97::t_aae4ff84e7752a 3,54
+packages/anthropic-aws/tsdown.config.ts
+  s_faea48823e0f97::t_b0f97af447435d 3
+packages/anthropic/CHANGELOG.md
+  s_faea48823e0f97::t_85f2f32660e997 3-20
+packages/anthropic/package.json
+  s_faea48823e0f97::t_c7e1440cb98ed0 3,58
+packages/anthropic/src/anthropic-api.ts
+  s_faea48823e0f97::t_7f8142e973b5f2 51,149-155
+packages/anthropic/src/anthropic-language-model.ts
+  s_faea48823e0f97::t_8ccd999da7d9d3 72-75,257-258,273-278,364-370,374,376,381,550-552,592,944-947,965
+packages/anthropic/src/convert-to-anthropic-prompt.test.ts
+  s_faea48823e0f97::t_d1b9665170f4c9 2-6,17-105
+packages/anthropic/src/convert-to-anthropic-prompt.ts
+  s_faea48823e0f97::t_7438d9913664d3 5,28,36,83-90,98,105,345-353
+packages/anthropic/src/get-cache-control.ts
+  s_faea48823e0f97::t_b60d6e25a2f59f 14,16,19-25,36-37,42-45
+packages/anthropic/tsdown.config.ts
+  s_faea48823e0f97::t_fb2d2564f6617f 3
+packages/assemblyai/CHANGELOG.md
+  s_faea48823e0f97::t_789cb3ecae0461 3-19
+packages/assemblyai/package.json
+  s_faea48823e0f97::t_220356a1925e87 3,52
+packages/assemblyai/tsdown.config.ts
+  s_faea48823e0f97::t_c5ccdd4262f8ba 3
+packages/azure/CHANGELOG.md
+  s_faea48823e0f97::t_ea2afba3ee66f7 3-30
+packages/azure/package.json
+  s_faea48823e0f97::t_51d00744f6723d 3,54
+packages/azure/src/azure-model-id.test.ts
+  s_faea48823e0f97::t_44651aca25b0bd 1-164
+packages/azure/src/azure-openai-provider.ts
+  s_faea48823e0f97::t_902f71494eb1c6 56-63,65-72,76,78-81,85,87-90,99,101-104,108,110-113,393-397,399,417-421,423,437-441,443,529-532,539
+packages/azure/src/index.ts
+  s_faea48823e0f97::t_26d66f0904c9c1 21
+packages/azure/tsdown.config.ts
+  s_faea48823e0f97::t_94b1546b1e1eea 3
+packages/baseten/CHANGELOG.md
+  s_faea48823e0f97::t_b4cb7fc389fa35 3-28
+packages/baseten/package.json
+  s_faea48823e0f97::t_b79213287f5aeb 3,53
+packages/baseten/tsdown.config.ts
+  s_faea48823e0f97::t_4cc74d83f82afd 3
+packages/black-forest-labs/CHANGELOG.md
+  s_faea48823e0f97::t_b73f663b7ac2ad 3-19
+packages/black-forest-labs/package.json
+  s_faea48823e0f97::t_d3eaf6465b35ae 3,51
+packages/black-forest-labs/tsdown.config.ts
+  s_faea48823e0f97::t_41935e5af536ec 3
+packages/bytedance/CHANGELOG.md
+  s_faea48823e0f97::t_04a847709218a5 3-19
+packages/bytedance/package.json
+  s_faea48823e0f97::t_5c5a55afa3158e 3,41
+packages/bytedance/tsdown.config.ts
+  s_faea48823e0f97::t_76a84c511169b5 3
+packages/cartesia/CHANGELOG.md
+  s_faea48823e0f97::t_21fad9c1c553d7 3-19
+packages/cartesia/package.json
+  s_faea48823e0f97::t_64b55739ba34cf 3,52
+packages/cartesia/tsdown.config.ts
+  s_faea48823e0f97::t_2db432882a8fdf 3
+packages/cerebras/CHANGELOG.md
+  s_faea48823e0f97::t_65381d5172e3a1 3-28
+packages/cerebras/package.json
+  s_faea48823e0f97::t_9f3d2c499ed9bb 3,52
+packages/cerebras/src/cerebras-chat-language-model.test.ts
+  s_faea48823e0f97::t_d1795e6cb33572 191-194,221-224
+packages/cerebras/tsdown.config.ts
+  s_faea48823e0f97::t_3452d3703dade7 3
+packages/code-mode/CHANGELOG.md
+  s_faea48823e0f97::t_0711cd52fcb5cd 3-25
+packages/code-mode/package.json
+  s_faea48823e0f97::t_7dfd9c06d32c7e 3,54
+packages/code-mode/tsdown.config.ts
+  s_faea48823e0f97::t_0aa74901e9a23c 3
+packages/codemod/package.json
+  s_faea48823e0f97::t_3c5609aa20b4dd 37
+packages/codemod/tsdown.config.ts
+  s_faea48823e0f97::t_8597cf0beae172 3
+packages/codemod/turbo.json
+  s_faea48823e0f97::t_b9bca78591def5 9
+packages/cohere/CHANGELOG.md
+  s_faea48823e0f97::t_950a93eb24084a 3-19
+packages/cohere/package.json
+  s_faea48823e0f97::t_259473249336ae 3,52
+packages/cohere/tsdown.config.ts
+  s_faea48823e0f97::t_7ffb7c685000a1 3
+packages/deepgram/CHANGELOG.md
+  s_faea48823e0f97::t_d6912e5ae8523e 3-19
+packages/deepgram/package.json
+  s_faea48823e0f97::t_263d92007326f5 3,52
+packages/deepgram/tsdown.config.ts
+  s_faea48823e0f97::t_98225dd38ea4fd 3
+packages/deepinfra/CHANGELOG.md
+  s_faea48823e0f97::t_4c64c0d36a731e 3-28
+packages/deepinfra/package.json
+  s_faea48823e0f97::t_6d78c367290509 3,53
+packages/deepinfra/tsdown.config.ts
+  s_faea48823e0f97::t_64328c871113f3 3
+packages/deepseek/CHANGELOG.md
+  s_faea48823e0f97::t_820dc5e3e012c7 3-19
+packages/deepseek/package.json
+  s_faea48823e0f97::t_1b91e0ca426f90 3,58
+packages/deepseek/tsdown.config.ts
+  s_faea48823e0f97::t_b9f2e7802ad95b 3
+packages/devtools/CHANGELOG.md
+  s_faea48823e0f97::t_48ec49b59debdf 3-27
+packages/devtools/package.json
+  s_faea48823e0f97::t_3ddc5e0dc7d67c 3,57
+packages/devtools/tsdown.config.ts
+  s_faea48823e0f97::t_e7dd4ec22b8a10 3
+packages/elevenlabs/CHANGELOG.md
+  s_faea48823e0f97::t_de646e885ad34c 3-19
+packages/elevenlabs/package.json
+  s_faea48823e0f97::t_ecc0ec40c6fa41 3,52
+packages/elevenlabs/tsdown.config.ts
+  s_faea48823e0f97::t_489e7683e706ad 3
+packages/fal/CHANGELOG.md
+  s_faea48823e0f97::t_6f8174e786f7be 3-19
+packages/fal/package.json
+  s_faea48823e0f97::t_00a4f9741eb4b0 3,52
+packages/fal/tsdown.config.ts
+  s_faea48823e0f97::t_e5e4443fa6dce1 3
+packages/fireworks/CHANGELOG.md
+  s_faea48823e0f97::t_3c32f0f80ac680 3-28
+packages/fireworks/package.json
+  s_faea48823e0f97::t_8c5e68baac5f05 3,53
+packages/fireworks/tsdown.config.ts
+  s_faea48823e0f97::t_04f37c480a86f6 3
+packages/fish-audio/CHANGELOG.md
+  s_faea48823e0f97::t_a7cf2336007168 3-19
+packages/fish-audio/package.json
+  s_faea48823e0f97::t_21e41f2703f444 3,52
+packages/fish-audio/tsdown.config.ts
+  s_faea48823e0f97::t_db915aa54b652f 3
+packages/gateway/CHANGELOG.md
+  s_faea48823e0f97::t_53c410d8ef3d8c 3-28
+packages/gateway/package.json
+  s_faea48823e0f97::t_d1e0ddd0154ca4 4,55
+packages/gateway/src/gateway-decision-model-settings.ts
+  s_faea48823e0f97::t_5aad9e1b56de57 5,8-9
+packages/gateway/src/gateway-decision-model.test.ts
+  s_faea48823e0f97::t_ee166b003f49bf 267-309
+packages/gateway/src/gateway-decision-model.ts
+  s_faea48823e0f97::t_3d8147bbbb7d7d 51-52,88-89
+packages/gateway/src/gateway-image-model-settings.ts
+  s_faea48823e0f97::t_ffdd72f6211103 8
+packages/gateway/src/gateway-language-model-settings.ts
+  s_faea48823e0f97::t_b4260bbbd2ba7b 78-79,81,138,148,173,267-268,290
+packages/gateway/tsdown.config.ts
+  s_faea48823e0f97::t_ce96c45b096bbb 3
+packages/gladia/CHANGELOG.md
+  s_faea48823e0f97::t_43192219902526 3-19
+packages/gladia/package.json
+  s_faea48823e0f97::t_5cec57c9098e16 3,52
+packages/gladia/tsdown.config.ts
+  s_faea48823e0f97::t_99093de303be87 3
+packages/gmicloud/CHANGELOG.md
+  s_faea48823e0f97::t_96f4412e5c7310 3-28
+packages/gmicloud/package.json
+  s_faea48823e0f97::t_f5b92c401e1229 3,52
+packages/gmicloud/tsdown.config.ts
+  s_faea48823e0f97::t_f27aeeba6ff30d 3
+packages/google-vertex/CHANGELOG.md
+  s_faea48823e0f97::t_19d653f66a2652 3-34
+packages/google-vertex/package.json
+  s_faea48823e0f97::t_ca1856785e4b47 3,98
+packages/google-vertex/tsdown.config.ts
+  s_faea48823e0f97::t_7e709e8024377e 3
+packages/google/CHANGELOG.md
+  s_faea48823e0f97::t_062eaa403255ae 3-20
+packages/google/package.json
+  s_faea48823e0f97::t_5c3b8bb80f1e53 3,58
+packages/google/src/__fixtures__/google-continuation-grounding-1.json
+  s_faea48823e0f97::t_d12bc2fa50de4b 1-77
+packages/google/src/__fixtures__/google-continuation-grounding-2.json
+  s_faea48823e0f97::t_854045529ea385 1-34
+packages/google/src/google-language-model.test.ts
+  s_faea48823e0f97::t_854dca43dcec9d 35-45,1711-1743,7123-7154
+packages/google/src/google-language-model.ts
+  s_faea48823e0f97::t_419e3c03650039 523,532,723-725,789-790,797,839-841,899-902,911-913,918-926,1517-1524
+packages/google/src/google-prompt.ts
+  s_faea48823e0f97::t_ae507da7fcc234 97-98
+packages/google/tsdown.config.ts
+  s_faea48823e0f97::t_d33b4e52b31b46 3
+packages/groq/CHANGELOG.md
+  s_faea48823e0f97::t_3517a1f60e8d6f 3-25
+packages/groq/package.json
+  s_faea48823e0f97::t_1ea890d6b4cb3a 3,52
+packages/groq/src/__snapshots__/groq-chat-language-model.test.ts.snap
+  s_faea48823e0f97::t_5d98bd35e9ddaa 63-73
+packages/groq/src/groq-chat-language-model.ts
+  s_faea48823e0f97::t_d3d7aad6f31335 339-344
+packages/groq/tsdown.config.ts
+  s_faea48823e0f97::t_964fead171a14c 3
+packages/harness-acp/CHANGELOG.md
+  s_faea48823e0f97::t_33755bd0168caa 3-25
+packages/harness-acp/package.json
+  s_faea48823e0f97::t_d265a5319d9d44 3,52
+packages/harness-acp/tsdown.config.ts
+  s_faea48823e0f97::t_5a094e3fc7f797 3
+packages/harness-claude-code/CHANGELOG.md
+  s_faea48823e0f97::t_1b32df59036cf0 3-30
+packages/harness-claude-code/package.json
+  s_faea48823e0f97::t_6e6c364e853382 3,53
+packages/harness-claude-code/src/bridge/index.test.ts
+  s_faea48823e0f97::t_54821ca2e18121 1474-1509
+packages/harness-claude-code/src/bridge/index.ts
+  s_faea48823e0f97::t_0306725210796a 846,885,892-906,980,1000
+packages/harness-claude-code/src/claude-code-bridge-protocol.test.ts
+  s_faea48823e0f97::t_2e84bbaf664793 114-126
+packages/harness-claude-code/src/claude-code-bridge-protocol.ts
+  s_faea48823e0f97::t_1002fe948a3e26 7,35
+packages/harness-claude-code/src/claude-code-harness.test.ts
+  s_faea48823e0f97::t_da38220473ed81 4,7,1465-1581
+packages/harness-claude-code/src/claude-code-harness.ts
+  s_faea48823e0f97::t_700333f9bd547a 35,1839-1841
+packages/harness-claude-code/tsdown.config.ts
+  s_faea48823e0f97::t_dd27c727c88042 3
+packages/harness-cline/CHANGELOG.md
+  s_faea48823e0f97::t_b82873e24b8917 3-29
+packages/harness-cline/package.json
+  s_faea48823e0f97::t_18bdaeba6e3134 3,50
+packages/harness-cline/src/cline-session.test.ts
+  s_faea48823e0f97::t_45b1f9670f06ba 219-258
+packages/harness-cline/src/cline-session.ts
+  s_faea48823e0f97::t_1f24a140d71b7d 28,68,639,727,730,734,737-738,751,895,931
+packages/harness-cline/src/cline-utils.test.ts
+  s_faea48823e0f97::t_d14d8439b44709 3,10,12,16,21,31-33,36,38,40,42,45-54
+packages/harness-cline/src/cline-utils.ts
+  s_faea48823e0f97::t_eb77642d503d0e 1,7-8,10,12-14,16-23,25-30
+packages/harness-cline/tsdown.config.ts
+  s_faea48823e0f97::t_4556a4c82893fe 3
+packages/harness-codex/CHANGELOG.md
+  s_faea48823e0f97::t_18adefdef3e927 3-29
+packages/harness-codex/package.json
+  s_faea48823e0f97::t_39fb4883d51d1e 3,52
+packages/harness-codex/src/bridge/codex-app-server-driver.test.ts
+  s_faea48823e0f97::t_d35c20115ca5fb 871-898
+packages/harness-codex/src/bridge/codex-app-server-driver.ts
+  s_faea48823e0f97::t_c043e55c171e4e 443-453
+packages/harness-codex/src/codex-bridge-protocol.test.ts
+  s_faea48823e0f97::t_e74ccc017dbc34 86-97
+packages/harness-codex/src/codex-bridge-protocol.ts
+  s_faea48823e0f97::t_5f33b5c02dce67 7,21
+packages/harness-codex/src/codex-harness.test.ts
+  s_faea48823e0f97::t_4e595f6aa1e168 4,6,503-547
+packages/harness-codex/src/codex-harness.ts
+  s_faea48823e0f97::t_cc2d5d697b5609 34,1031-1033
+packages/harness-codex/tsdown.config.ts
+  s_faea48823e0f97::t_da26f8a95e0bc5 3
+packages/harness-cursor/CHANGELOG.md
+  s_faea48823e0f97::t_da966054049def 3-31
+packages/harness-cursor/package.json
+  s_faea48823e0f97::t_356d8c7cf34567 3,49
+packages/harness-cursor/tsdown.config.ts
+  s_faea48823e0f97::t_45effcb2681716 3
+packages/harness-deepagents/CHANGELOG.md
+  s_faea48823e0f97::t_90ab8a677f48d4 3-25
+packages/harness-deepagents/package.json
+  s_faea48823e0f97::t_9798bc68562d96 3,54
+packages/harness-deepagents/tsdown.config.ts
+  s_faea48823e0f97::t_407deee2f1961a 3
+packages/harness-fx/CHANGELOG.md
+  s_faea48823e0f97::t_8b7788640ebdde 3-34
+packages/harness-fx/README.md
+  s_faea48823e0f97::t_50bc50c3431603 42
+packages/harness-fx/package.json
+  s_faea48823e0f97::t_92472b1917e56d 3,42,50
+packages/harness-fx/src/__fixtures__/responses-openai.chunks.txt
+  s_faea48823e0f97::t_fafa9aecca2bfe 1-110
+packages/harness-fx/src/__fixtures__/responses-xai.chunks.txt
+  s_faea48823e0f97::t_a85c92b1c0b431 1-655
+packages/harness-fx/src/fx-harness.test.ts
+  s_faea48823e0f97::t_4068cba53600a7 1,21,30,34-37,44-45,148,156-303,375-410,493-496
+packages/harness-fx/src/fx-harness.ts
+  s_faea48823e0f97::t_f184c840ec5932 8
+packages/harness-fx/src/fx-resume-state.ts
+  s_faea48823e0f97::t_82d6bc5371817c 11,28,56-57,64-65,80-86
+packages/harness-fx/src/fx-runtime.ts
+  s_faea48823e0f97::t_b0c72ba32c7913 1-2,19,59,65-105,117-119,124-126,130,133,135
+packages/harness-fx/src/fx-session-native.test.ts
+  s_faea48823e0f97::t_a0832dc748bfec 16-225,961-1139,1350
+packages/harness-fx/src/fx-subscription.test.ts
+  s_faea48823e0f97::t_d82541f886be7f 1-425
+packages/harness-fx/src/fx-subscription.ts
+  s_faea48823e0f97::t_e99d3bb41eb0f9 1-499
+packages/harness-fx/src/fx-translate.ts
+  s_faea48823e0f97::t_f7c9ceea31fe1b 6-7,24,30-33,35,37-64,67,70-97,111
+packages/harness-fx/src/fx-transport.test.ts
+  s_faea48823e0f97::t_1804e17f8e4c58 3,31-253,255-290,408,460,538,544,567,621,652
+packages/harness-fx/src/fx-transport.ts
+  s_faea48823e0f97::t_4ce2086871d7c7 2,5,9-160,172-173,187-190,193-241,249-253,257-261,265-269,291,300-304,307-313,318,331-348,350,367,388-400,437-439,449-451,453-455,458,483,487
+packages/harness-fx/tsdown.config.ts
+  s_faea48823e0f97::t_d8cff2c0d2e836 3
+packages/harness-github-copilot/CHANGELOG.md
+  s_faea48823e0f97::t_918480aa0eaf74 3-31
+packages/harness-github-copilot/package.json
+  s_faea48823e0f97::t_57be9eaefa4dc2 3,51
+packages/harness-github-copilot/tsdown.config.ts
+  s_faea48823e0f97::t_a98faaf6aa009b 4
+packages/harness-grok-build/CHANGELOG.md
+  s_faea48823e0f97::t_cfa8cd4d7bc64b 3-31
+packages/harness-grok-build/package.json
+  s_faea48823e0f97::t_941e4e884dcd65 3,49
+packages/harness-grok-build/tsdown.config.ts
+  s_faea48823e0f97::t_54c877c34cf751 4
+packages/harness-opencode/CHANGELOG.md
+  s_faea48823e0f97::t_fc424f6f2edd87 3-28
+packages/harness-opencode/package.json
+  s_faea48823e0f97::t_4a4a61c1502542 3,53
+packages/harness-opencode/tsdown.config.ts
+  s_faea48823e0f97::t_d9b6fc62d7aae9 3
+packages/harness-pi/CHANGELOG.md
+  s_faea48823e0f97::t_03996800befffb 3-26
+packages/harness-pi/package.json
+  s_faea48823e0f97::t_729f7b76d6fbb7 3,50
+packages/harness-pi/src/pi-session.test.ts
+  s_faea48823e0f97::t_d3eb044a5886fa 6,83,146-147,184,272-366,1941,1985,2912,3293
+packages/harness-pi/src/pi-session.ts
+  s_faea48823e0f97::t_fde74daf58be2c 89,92,1081,1407,1428-1438,1574,1691-1693,1695-1696,1745
+packages/harness-pi/src/pi-utils.test.ts
+  s_faea48823e0f97::t_66c8f55f6a2e76 4,26-31,35-42,44,48-52,55-76,78-89,93-113
+packages/harness-pi/src/pi-utils.ts
+  s_faea48823e0f97::t_3210412795028b 6,10-13,15-20,22,25-26,28-41,45-46
+packages/harness-pi/tsdown.config.ts
+  s_faea48823e0f97::t_477887604f33cd 3
+packages/harness/CHANGELOG.md
+  s_faea48823e0f97::t_208f6c9446355f 3-31
+packages/harness/package.json
+  s_faea48823e0f97::t_05151fdb84df34 3,76
+packages/harness/src/utils/extract-harness-prompt-content.test.ts
+  s_faea48823e0f97::t_d5a63f5e9429db 1-144
+packages/harness/src/utils/extract-harness-prompt-content.ts
+  s_faea48823e0f97::t_b168e08480f40a 1-162
+packages/harness/src/utils/index.ts
+  s_faea48823e0f97::t_33172a5f2dcce5 75-80
+packages/harness/tsdown.config.ts
+  s_faea48823e0f97::t_823cac0bf58f2b 3
+packages/heygen/CHANGELOG.md
+  s_faea48823e0f97::t_911e73c757b84c 3-19
+packages/heygen/package.json
+  s_faea48823e0f97::t_75c9a6fc089cbd 3,52
+packages/heygen/tsdown.config.ts
+  s_faea48823e0f97::t_0a288458822a4a 3
+packages/huggingface/CHANGELOG.md
+  s_faea48823e0f97::t_3f2e96d50bb8ff 3-28
+packages/huggingface/package.json
+  s_faea48823e0f97::t_5fc6a82e8fe21f 3,53
+packages/huggingface/tsdown.config.ts
+  s_faea48823e0f97::t_8b0e3a81f04434 3
+packages/hume/CHANGELOG.md
+  s_faea48823e0f97::t_1289cce202c177 3-19
+packages/hume/package.json
+  s_faea48823e0f97::t_bd8022cd7724a4 3,52
+packages/hume/tsdown.config.ts
+  s_faea48823e0f97::t_88d3f36c5f5468 3
+packages/klingai/CHANGELOG.md
+  s_faea48823e0f97::t_f3835f9f563f6f 3-19
+packages/klingai/package.json
+  s_faea48823e0f97::t_76bff005310a8d 3,46
+packages/klingai/tsdown.config.ts
+  s_faea48823e0f97::t_c2cd70faa7c872 3
+packages/langchain/CHANGELOG.md
+  s_faea48823e0f97::t_9016cc54268ba7 3-25
+packages/langchain/README.md
+  s_faea48823e0f97::t_a19ca528c3c580 170
+packages/langchain/package.json
+  s_faea48823e0f97::t_1e8a2eeede07ab 3,47
+packages/langchain/tsdown.config.ts
+  s_faea48823e0f97::t_83d664bd2bfce3 3
+packages/llamaindex/CHANGELOG.md
+  s_faea48823e0f97::t_4603c0e63a84a5 3-25
+packages/llamaindex/package.json
+  s_faea48823e0f97::t_3d4647c74ead5a 3,44
+packages/llamaindex/tsdown.config.ts
+  s_faea48823e0f97::t_9836c44a2a2ace 3
+packages/luma/CHANGELOG.md
+  s_faea48823e0f97::t_d3845864699049 3-19
+packages/luma/package.json
+  s_faea48823e0f97::t_9d6c558c54f90b 3,52
+packages/luma/tsdown.config.ts
+  s_faea48823e0f97::t_5a26f2f75d79a7 3
+packages/mcp/CHANGELOG.md
+  s_faea48823e0f97::t_8a97355b8f0599 3-21
+packages/mcp/package.json
+  s_faea48823e0f97::t_2bea499f5a9d58 3,55
+packages/mcp/src/tool/oauth.test.ts
+  s_faea48823e0f97::t_fdbf17d9608ba4 17,1982,2120-2288,2459-2558,2815,3157,3468,3530,3594,3806,3873
+packages/mcp/src/tool/oauth.ts
+  s_faea48823e0f97::t_c4d0517781c19a 97-101,129,1308-1311,1316-1321,1379,1470-1475,1487-1510,1516-1518,1525-1538
+packages/mcp/tsdown.config.ts
+  s_faea48823e0f97::t_d87c2231515ae6 3
+packages/minimax/CHANGELOG.md
+  s_faea48823e0f97::t_747ce82e1d6e30 3-23
+packages/minimax/package.json
+  s_faea48823e0f97::t_9d49eee27d838c 3,47
+packages/minimax/src/convert-to-minimax-media-part.ts
+  s_faea48823e0f97::t_33b8137d03ff71 1-72
+packages/minimax/src/index.ts
+  s_faea48823e0f97::t_da8584a40fbad4 8,12,15-18
+packages/minimax/src/minimax-chat-language-model-options.ts
+  s_faea48823e0f97::t_3d3f6d7c3ab88c 5,17-21,29,32-39
+packages/minimax/src/minimax-chat-language-model.test.ts
+  s_faea48823e0f97::t_1212343ae7ce04 1-11,13-18,20,32,39-236,284-1143
+packages/minimax/src/minimax-chat-language-model.ts
+  s_faea48823e0f97::t_7e9d97fa063201 1-159
+packages/minimax/src/minimax-media-options.ts
+  s_faea48823e0f97::t_9737b76d3519e2 1-15
+packages/minimax/src/minimax-provider.ts
+  s_faea48823e0f97::t_8bffab1a2a42c9 14-15,107
+packages/minimax/tsdown.config.ts
+  s_faea48823e0f97::t_c388969e26caba 3
+packages/mistral/CHANGELOG.md
+  s_faea48823e0f97::t_ce5c8436e6a6c8 3-19
+packages/mistral/package.json
+  s_faea48823e0f97::t_9df854ffa126b3 3,52
+packages/mistral/tsdown.config.ts
+  s_faea48823e0f97::t_576f0727ccd42c 3
+packages/moonshotai/CHANGELOG.md
+  s_faea48823e0f97::t_18bafe55cb8c44 3-19
+packages/moonshotai/package.json
+  s_faea48823e0f97::t_24806ad90fd3e1 3,46
+packages/moonshotai/tsdown.config.ts
+  s_faea48823e0f97::t_ccf84b4e091567 3
+packages/open-responses/CHANGELOG.md
+  s_faea48823e0f97::t_9ac4fd9348fa85 3-19
+packages/open-responses/package.json
+  s_faea48823e0f97::t_1b10233487cebe 3,52
+packages/open-responses/tsdown.config.ts
+  s_faea48823e0f97::t_652b2bf4a5dd43 3
+packages/openai-compatible/CHANGELOG.md
+  s_faea48823e0f97::t_6ba5419aa99a90 3-25
+packages/openai-compatible/package.json
+  s_faea48823e0f97::t_9f201e3a6d407d 3,58
+packages/openai-compatible/src/chat/__snapshots__/openai-compatible-chat-language-model.test.ts.snap
+  s_faea48823e0f97::t_0c2226a66f0e4d 35-38
+packages/openai-compatible/src/chat/openai-compatible-chat-language-model.test.ts
+  s_faea48823e0f97::t_fb419a03cece28 454-457
+packages/openai-compatible/src/chat/openai-compatible-chat-language-model.ts
+  s_faea48823e0f97::t_d01701ce08ecde 390-391
+packages/openai-compatible/tsdown.config.ts
+  s_faea48823e0f97::t_68a052bc09e817 3
+packages/openai/CHANGELOG.md
+  s_faea48823e0f97::t_52787212ea49b5 3-27
+packages/openai/package.json
+  s_faea48823e0f97::t_89c644b5e7ffec 3,58
+packages/openai/src/chat/openai-chat-language-model.ts
+  s_faea48823e0f97::t_4c3474b9612636 55-56,187,409,509
+packages/openai/src/completion/openai-completion-language-model.ts
+  s_faea48823e0f97::t_3ac63aa84af531 46-47,153,197,251
+packages/openai/src/openai-config.ts
+  s_faea48823e0f97::t_f3cd6f87d2a1db 14-15
+packages/openai/src/openai-decision-model.ts
+  s_faea48823e0f97::t_77c747e8ad8685 117-118,307-320
+packages/openai/src/openai-decision.test.ts
+  s_faea48823e0f97::t_61d7ee306700e3 662-686
+packages/openai/src/responses/__snapshots__/openai-responses-language-model.test.ts.snap
+  s_faea48823e0f97::t_1036b0d25bab14 830,9071
+packages/openai/src/responses/convert-to-openai-responses-input.test.ts
+  s_faea48823e0f97::t_e09abf02783895 4903-4990,5363-5460
+packages/openai/src/responses/convert-to-openai-responses-input.ts
+  s_faea48823e0f97::t_cffa1bfdd3c2ec 1227-1229,1571-1573
+packages/openai/src/responses/openai-responses-api.ts
+  s_faea48823e0f97::t_7ae5a6c5ae3634 1064-1065,1078,1302-1303,1316,1746-1747,1760
+packages/openai/src/responses/openai-responses-language-model.test.ts
+  s_faea48823e0f97::t_f2f1303d7932ee 4281-4470,9510-9727
+packages/openai/src/responses/openai-responses-language-model.ts
+  s_faea48823e0f97::t_07cc659c0e3af5 601,857,1048-1049,1069-1071,1555,2538-2540,2556-2558
+packages/openai/src/tool/shell.ts
+  s_faea48823e0f97::t_3cf23ac88a9e99 24,184-188
+packages/openai/src/transcription/openai-transcription-api.ts
+  s_faea48823e0f97::t_3191e252ee8263 9
+packages/openai/src/transcription/openai-transcription-model.test.ts
+  s_faea48823e0f97::t_6a4fd4c8fba615 79-168
+packages/openai/src/transcription/openai-transcription-model.ts
+  s_faea48823e0f97::t_75f137b20e31c8 139-144,308-317,356-366,368-369
+packages/openai/tsdown.config.ts
+  s_faea48823e0f97::t_3937c13bae1f53 3
+packages/otel/CHANGELOG.md
+  s_faea48823e0f97::t_43a93e345ec6d8 3-27
+packages/otel/package.json
+  s_faea48823e0f97::t_0b0206f4de820d 3,46
+packages/otel/tsdown.config.ts
+  s_faea48823e0f97::t_6c9932b0e3ea38 3
+packages/perplexity/CHANGELOG.md
+  s_faea48823e0f97::t_f22c039794a221 3-21
+packages/perplexity/package.json
+  s_faea48823e0f97::t_39243ebce2517d 3,52
+packages/perplexity/src/perplexity-decision-model.test.ts
+  s_faea48823e0f97::t_69ee6dd2eb05cd 529-553
+packages/perplexity/src/perplexity-decision-model.ts
+  s_faea48823e0f97::t_91915f3b63e61a 66-67,214-225
+packages/perplexity/tsdown.config.ts
+  s_faea48823e0f97::t_75e1e4b2204cda 3
+packages/policy-opa/CHANGELOG.md
+  s_faea48823e0f97::t_2940c91e7c5ee6 3-30
+packages/policy-opa/package.json
+  s_faea48823e0f97::t_d004fd9656e23b 3,44
+packages/policy-opa/tsdown.config.ts
+  s_faea48823e0f97::t_9a924a32067b14 3
+packages/prodia/CHANGELOG.md
+  s_faea48823e0f97::t_71857b70962b9b 3-19
+packages/prodia/package.json
+  s_faea48823e0f97::t_152d810a32558b 3,51
+packages/prodia/tsdown.config.ts
+  s_faea48823e0f97::t_6ae1d4fcc4c57e 3
+packages/provider-utils/CHANGELOG.md
+  s_faea48823e0f97::t_2eba49608c452d 3-18
+packages/provider-utils/package.json
+  s_faea48823e0f97::t_b1f8367b552ef4 3,65
+packages/provider-utils/src/decision-language-model.test.ts
+  s_faea48823e0f97::t_513b8418cddb78 520-550
+packages/provider-utils/src/decision-language-model.ts
+  s_faea48823e0f97::t_5ada397fafff20 65-66,153-154
+packages/provider-utils/src/read-response-with-size-limit.test.ts
+  s_faea48823e0f97::t_b3e32d1f478c23 1,45-55,57-100
+packages/provider-utils/src/read-response-with-size-limit.ts
+  s_faea48823e0f97::t_2f3a8e4cd2d078 82-89
+packages/provider-utils/tsdown.config.ts
+  s_faea48823e0f97::t_a8e50dc05f86bd 3
+packages/provider/CHANGELOG.md
+  s_faea48823e0f97::t_dc3241b4956a61 3-14
+packages/provider/package.json
+  s_faea48823e0f97::t_38ee4a04e39634 3,41
+packages/provider/src/decision-model/v4/decision-model-v4-call-options.ts
+  s_faea48823e0f97::t_77a1f8fd40f90c 1,9-11
+packages/provider/tsdown.config.ts
+  s_faea48823e0f97::t_517b6b4ae3b4e4 3
+packages/quiverai/CHANGELOG.md
+  s_faea48823e0f97::t_f873f5bf3ae3a5 3-21
+packages/quiverai/package.json
+  s_faea48823e0f97::t_2c5cb7d68b618e 3,53
+packages/quiverai/tsdown.config.ts
+  s_faea48823e0f97::t_f0de8bbac92352 3
+packages/react/CHANGELOG.md
+  s_faea48823e0f97::t_e92b33f1895191 3-34
+packages/react/package.json
+  s_faea48823e0f97::t_174ab30caa29f8 3,54
+packages/react/tsdown.config.ts
+  s_faea48823e0f97::t_f8bbed85b617e7 3
+packages/replicate/CHANGELOG.md
+  s_faea48823e0f97::t_7fb9723d7c670a 3-19
+packages/replicate/package.json
+  s_faea48823e0f97::t_58058aba743091 3,52
+packages/replicate/tsdown.config.ts
+  s_faea48823e0f97::t_7c9694f4ec638b 3
+packages/revai/CHANGELOG.md
+  s_faea48823e0f97::t_8d40858ac0d74a 3-19
+packages/revai/package.json
+  s_faea48823e0f97::t_e0925c6150d5e0 3,52
+packages/revai/tsdown.config.ts
+  s_faea48823e0f97::t_3949e75bbdd1b8 3
+packages/rsc/CHANGELOG.md
+  s_faea48823e0f97::t_fccd8969fa8302 3-30
+packages/rsc/package.json
+  s_faea48823e0f97::t_cceafdd1b3bd4c 3,59
+packages/rsc/tests/e2e/next-server/CHANGELOG.md
+  s_faea48823e0f97::t_c6f77b02dafc13 7-32
+packages/rsc/tsdown.config.ts
+  s_faea48823e0f97::t_0c36a449aa857d 3
+packages/sandbox-just-bash/CHANGELOG.md
+  s_faea48823e0f97::t_dfa18591881b83 3-25
+packages/sandbox-just-bash/package.json
+  s_faea48823e0f97::t_9a56147c1a4ef4 3,45
+packages/sandbox-just-bash/tsdown.config.ts
+  s_faea48823e0f97::t_e8727d6d1e6eea 3
+packages/sandbox-vercel/CHANGELOG.md
+  s_faea48823e0f97::t_26fcb0e4358173 3-26
+packages/sandbox-vercel/package.json
+  s_faea48823e0f97::t_0ec73a25050d24 3,45
+packages/sandbox-vercel/src/utils.test.ts
+  s_faea48823e0f97::t_afb080f6288eca 2-7,9,12,16-20,23-49,53-57,60-65,69,73,83,85-91,97-257
+packages/sandbox-vercel/src/utils.ts
+  s_faea48823e0f97::t_bf990da2ecd2fe 2,56,235-259,261-269,309-329,332-333,336,339-345,347,356-377
+packages/sandbox-vercel/src/vercel-legacy-sandbox-provider.test.ts
+  s_faea48823e0f97::t_b996f87a7dd875 9-16,24,27-34,55,443-444,559-562,585-588,700,703-711,725,727
+packages/sandbox-vercel/src/vercel-sandbox.test.ts
+  s_faea48823e0f97::t_29a84cf94eebf9 144-152,162,206-213,221,244
+packages/sandbox-vercel/tsdown.config.ts
+  s_faea48823e0f97::t_12644bab7ea928 3
+packages/svelte/CHANGELOG.md
+  s_faea48823e0f97::t_7c68f12c03c7ce 3-28
+packages/svelte/package.json
+  s_faea48823e0f97::t_62855d8682d6ba 3
+packages/svelte/src/completion.svelte.test.ts
+  s_faea48823e0f97::t_4d1490afa1d43f 49-112
+packages/svelte/src/completion.svelte.ts
+  s_faea48823e0f97::t_c2515b34069abc 7,94-97
+packages/svelte/src/structured-object.svelte.test.ts
+  s_faea48823e0f97::t_fb67c99fd82e31 236-259
+packages/svelte/src/structured-object.svelte.ts
+  s_faea48823e0f97::t_733b1554b3f044 4,165
+packages/test-server/package.json
+  s_faea48823e0f97::t_c991c28877e6cc 49
+packages/test-server/tsdown.config.ts
+  s_faea48823e0f97::t_55aff5ddae2797 3
+packages/togetherai/CHANGELOG.md
+  s_faea48823e0f97::t_01e1c563e862e8 3-28
+packages/togetherai/package.json
+  s_faea48823e0f97::t_898804bff7ecb6 3,53
+packages/togetherai/tsdown.config.ts
+  s_faea48823e0f97::t_c5a8e3ae7f3739 3
+packages/tool-bash/CHANGELOG.md
+  s_faea48823e0f97::t_799d4bd149798a 1-14
+packages/tool-bash/README.md
+  s_faea48823e0f97::t_76b289bdbbbc84 1-102
+packages/tool-bash/package.json
+  s_faea48823e0f97::t_9946d74fab53a9 1-68
+packages/tool-bash/src/bash-tool.test.ts
+  s_faea48823e0f97::t_7f4c2ce1957d12 1-393
+packages/tool-bash/src/bash-tool.ts
+  s_faea48823e0f97::t_e0fb79c8725c1e 1-116
+packages/tool-bash/src/index.ts
+  s_faea48823e0f97::t_7663570c872323 1
+packages/tool-bash/tsconfig.build.json
+  s_faea48823e0f97::t_935805924c3abf 1-6
+packages/tool-bash/tsconfig.json
+  s_faea48823e0f97::t_a9191a69e77e33 1-25
+packages/tool-bash/tsdown.config.ts
+  s_faea48823e0f97::t_13c4516ee6951a 1-9
+packages/tool-bash/turbo.json
+  s_faea48823e0f97::t_6b4dc840098aa7 1-12
+packages/tool-bash/vitest.node.config.js
+  s_faea48823e0f97::t_f46c714757db72 1-8
+packages/topaz/CHANGELOG.md
+  s_faea48823e0f97::t_f7d6b0fab57143 3-19
+packages/topaz/package.json
+  s_faea48823e0f97::t_791b2735e06590 3,52
+packages/topaz/tsdown.config.ts
+  s_faea48823e0f97::t_53c4eaa2deca31 3
+packages/tui/CHANGELOG.md
+  s_faea48823e0f97::t_fe7b9b73123e4d 3-25
+packages/tui/package.json
+  s_faea48823e0f97::t_ab81e55995abaf 3,46
+packages/tui/tsdown.config.ts
+  s_faea48823e0f97::t_4d70cd645c4871 3
+packages/typesafe-ai/CHANGELOG.md
+  s_faea48823e0f97::t_64d3b4ecf9bbec 3-20
+packages/typesafe-ai/package.json
+  s_faea48823e0f97::t_b996df66948e15 3,52
+packages/typesafe-ai/src/typesafe-ai-decision-model.test.ts
+  s_faea48823e0f97::t_c52599dac72a6d 842-860
+packages/typesafe-ai/src/typesafe-ai-decision-model.ts
+  s_faea48823e0f97::t_4f29502ffb6dc6 87-88,126-131
+packages/typesafe-ai/tsdown.config.ts
+  s_faea48823e0f97::t_7741825a64fd52 3
+packages/valibot/CHANGELOG.md
+  s_faea48823e0f97::t_707467158f16ef 3-16
+packages/valibot/package.json
+  s_faea48823e0f97::t_fbb7361087a07b 3,40
+packages/valibot/tsdown.config.ts
+  s_faea48823e0f97::t_309c32f4227ad6 3
+packages/voyage/CHANGELOG.md
+  s_faea48823e0f97::t_615b5fa2c3f5fd 3-19
+packages/voyage/package.json
+  s_faea48823e0f97::t_13338ef1d2f5ba 3,46
+packages/voyage/tsdown.config.ts
+  s_faea48823e0f97::t_fe09f2d44d0f91 3
+packages/vue/CHANGELOG.md
+  s_faea48823e0f97::t_89847453478de0 3-28
+packages/vue/package.json
+  s_faea48823e0f97::t_a994ad350f5d49 3,49
+packages/vue/tsdown.config.ts
+  s_faea48823e0f97::t_149fe503163631 3
+packages/workflow-harness/CHANGELOG.md
+  s_faea48823e0f97::t_96acdcb7cb1843 3-21
+packages/workflow-harness/package.json
+  s_faea48823e0f97::t_f4732a3ce61948 3,46
+packages/workflow-harness/tsdown.config.ts
+  s_faea48823e0f97::t_77780adbcb82ff 3
+packages/workflow/CHANGELOG.md
+  s_faea48823e0f97::t_e00d440fd8f0fb 3-30
+packages/workflow/package.json
+  s_faea48823e0f97::t_805f3f03a7be77 3,62
+packages/workflow/tsdown.config.ts
+  s_faea48823e0f97::t_77c32c8ce37319 3
+packages/xai/CHANGELOG.md
+  s_faea48823e0f97::t_af565d9b2fb6b9 3-19
+packages/xai/package.json
+  s_faea48823e0f97::t_33e397c82d4fbd 3,52
+packages/xai/tsdown.config.ts
+  s_faea48823e0f97::t_27ea2f18a9a4b0 3
+packages/zai/CHANGELOG.md
+  s_faea48823e0f97::t_af72bba2d75934 3-28
+packages/zai/package.json
+  s_faea48823e0f97::t_9e3396940ff846 3,52
+packages/zai/src/zai-chat-language-model.test.ts
+  s_faea48823e0f97::t_43e4c9c59f334e 180
+packages/zai/tsdown.config.ts
+  s_faea48823e0f97::t_8c5e56a8fa9f4b 3
+pnpm-lock.yaml
+  s_faea48823e0f97::t_fd4dfd06a34fab 519-521,1886-1888,1923-1925,1969-1971,2003-2005,2040-2042,2077-2079,2108-2110,2145-2147,2182-2184,2213-2215,2244-2246,2275-2277,2306-2308,2331-2333,2380-2382,2420-2422,2451-2453,2485-2487,2516-2518,2571-2573,2647-2649,2678-2680,2712-2714,2743-2745,2777-2779,2811-2813,2842-2844,2873-2875,2916-2918,2947-2949,2987-2989,3030-3032,3073-3075,3110-3112,3150-3152,3184-3186,3230-3232,3270-3271,3279-3281,3322-3324,3356-3358,3402-3404,3442-3444,3473-3475,3507-3509,3538-3540,3569-3571,3603-3605,3625-3627,3653-3655,3693-3695,3730-3732,3761-3763,3792-3794,3823-3825,3854-3856,3885-3887,3922-3924,3953-3955,3987-3989,4018-4020,4046-4048,4080-4082,4117-4119,4178-4180,4224-4226,4255-4257,4304-4306,4371-4373,4399-4401,4476-4478,4507-4509,4520-4550,4569-4571,4597-4599,4634-4636,4662-4664,4693-4695,4739-4741,4794-4796,4828-4830,4862-4864,4893-4895,4977-4978,19404-19405,21163,44183
+tools/tsdown-config/package.json
+  s_faea48823e0f97::t_509e077da52130 1-10
+tsconfig.json
+  s_faea48823e0f97::t_d1857435873404 219-221
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "031dd1c4624cef5340a8158ef4d0431faac14c26",
+  "prompts": {},
+  "sessions": {
+    "s_faea48823e0f97": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a14ec2-4a50-74e1-9782-8cbfbcca1938",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Alfie Jones <alfie.jones@hotmail.co.uk>"
+    }
+  }
+}
